@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan's Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body>
+    <style>
+        body{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+            height: 2000px;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg.jpg.jpg');
+            
+        
+        }
+        .left{
+            margin-left:-16px ;
+            color: black;
+            font-size: 15x;
+
+            display: inline;
+            position: absolute;
+            left: 1px;
+            top: 37px
+            
+        
+        }
+        .left div{
+            line-height: 44px;
+            font-size: 21px;
+            margin-left: 21px;
+        }
+        .left img{
+            width: 153px;
+            margin-left: 48px;
+        }
+        .mid{
+            
+            text-align: center ;
+            display: block;
+            width: 70%;
+            margin: 35px auto;
+            
+        
+           
+        }
+        .right{
+            margin-right: 21px;
+            display: inline;
+            position: absolute;
+            right: 3px;
+            top: 37px;
+          
+            
+        }
+     .navbar li{
+        display: inline-block;
+        font-size: 25px;
+     }
+     .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 20px;
+     }
+     .navbar li a:hover , .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+     }
+     .btn{
+        cursor: pointer;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        padding: 5px 13px;
+        font-size: 15px;
+     }
+     .btn:hover{
+        background-color: grey;
+     }
+     .container{
+        text-align: center;
+        border-radius: 30px;
+        margin: 248px 123px;
+        padding: 36px 106px;
+        width: 45%;
+        margin-left: 36px;
+     }
+     .formgroup input{
+     padding: 1px;
+     font-size: 23px;
+     text-align: center;
+     width: 234px;
+     display: block;
+     margin: 13px auto;
+     border-radius: 10px;
+     }
+     .container button{
+     background-color: white;
+     color: blue;
+     width: 382px;
+
+     margin: 3px auto;
+   
+     }
+    </style>
+</body>
+<header class="header">
+<div class="left">
+    <img src="https://i.pinimg.com/736x/a0/8b/aa/a08baaad32de4e8634b3db73a8dad620.jpg" alt="">
+    <div><span  > <b>Hassan's Fitness Center</b></span></div>
+</div>
+<div class="mid">
+    <ul class="navbar">
+        <li><a href="#" class="active"> Home </a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+</div>
+<div class="right">
+    <Button class="btn">Contact us Now</Button><Button class="btn">Email us</Button>
+</div>
+</header>
+<div class="container">
+<h1>Join Us Now</h1>
+  <form action="noaction.php">
+  <div class="formgroup">
+  <input type="text" name="" placeholder="Enter your Name">  
+  </div>
+   <div class="formgroup">
+  <input type="text" name="" placeholder="Enter your Age">  
+  </div>
+   <div class="formgroup">
+  <input type="text" name="" placeholder="Enter your Gender">  
+  </div>
+   <div class="formgroup">
+  <input type="text" name="" placeholder="Enter your Location">  
+  </div>
+  <Button class="btn">Submit
+  </Button>
+  </form>
+</div>
+</html>
